@@ -7,7 +7,6 @@ function showCoffeeDetails(coffeeType) {
                          <p>${coffee.history}</p>
                          <p><strong>Appropriate Time to Drink:</strong> ${coffee.timeToDrink}</p>`;
 
-    // Add code to pop up a window with a metaphorical sentence about the user's current mood
     const moodMetaphor = getMoodMetaphor(coffeeType);
     alert(`For a ${coffeeType} mood: ${moodMetaphor}`);
 }
